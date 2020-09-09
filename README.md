@@ -31,15 +31,25 @@ Painting attributes:
   name
   description
   medium
-  palette
+  color_palette
+  image
+  artist
 
+Museum attributes:
+  name
+  address
+  slogan
 
+MuseumPainting attributes:
+  museum
+  painting
 
 ## Instructions
 
 ## Setup
 
 bundle
+(link to section for troubleshooting bundle errors)
 database commands
 
 ### Setting up your first Factory
@@ -61,3 +71,4 @@ Artist.all
 [Faker Docs](https://github.com/faker-ruby/faker)
 [FactoryBot Docs](https://github.com/thoughtbot/factory_bot/blob/master/GETTING_STARTED.md)
 [FactoryBot Cheatsheet](https://devhints.io/factory_bot)
+[Easily rename your Git default branch from master to main](https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx)
