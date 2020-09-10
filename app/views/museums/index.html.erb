@@ -1,0 +1,14 @@
+<h1> MUSEUMS </h1>
+<% @museums.each do |museum| %>
+  <section class="museum-<%= museum.id %>">
+    <p>Name: <%= museum.name %></p>
+    <% museum.paintings.each do |painting| %>
+      <p>* <%= painting.name %></p>
+      <p>* <%= painting.description %></p>
+      <p>* <%= painting.medium %></p>
+      <p>* <%= painting.color_palette %></p>
+      <p><img src=<%= painting.image %>></p>
+      <br>
+    <% end %>
+  </section>
+<% end %>
