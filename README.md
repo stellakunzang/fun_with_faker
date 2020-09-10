@@ -64,7 +64,7 @@ In `db/seeds.rb`, create seed objects for all of your classes. You can use a `.t
 
 Fire up your 'lil app on local host with the command `rails s` and then visit `localhost:3000/` plus whatever route you want to explore (ex. `localhost:3000/artists/1`)
 
-### Exploring the Database Using Rails Console
+### Explore the Database Using Rails Console
 
 The rails console is a friendly place in the terminal where you can access your database and test out active record queries. You can get there by running `rails c`.
 
