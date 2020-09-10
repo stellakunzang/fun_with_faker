@@ -21,6 +21,6 @@ RSpec.describe "artist show page" do
     visit "/artists/#{@artist1.id}"
 
     expect(page).to have_content(@painting1.name)
-    expect(page).to have_content(@painting2.description)
+    expect(page).to have_content(@painting1.description)
   end
 end
