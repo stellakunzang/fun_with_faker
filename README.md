@@ -1,7 +1,6 @@
 # Spike: Fun with Faker and FactoryBot
 
 *Turing School of Software and Design*
-September 11th, 2020
 
 ## Introduction
 
