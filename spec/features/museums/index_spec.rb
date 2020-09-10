@@ -21,7 +21,7 @@ RSpec.describe "museum index page" do
     expect(page).to have_content(@museum2.name)
   end
 
-  it "should display paintings are museums" do
+  it "should display paintings at museums" do
 
     visit "/museums"
 
