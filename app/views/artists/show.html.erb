@@ -1,0 +1,12 @@
+<h2><%= "#{@artist.first_name}" "#{@artist.last_name}" %></h2>
+<p> Birth Year: <%= @artist.year %> </p>
+<p> Location: <%= @artist.location %> </p>
+
+<% @artist.paintings.each do |painting| %>
+  <p><%= painting.name %></p>
+  <p><%= painting.description %></p>
+  <p><%= painting.medium %></p>
+  <p><%= painting.color_palette %></p>
+  <p><img src=<%= painting.image %>></p>
+  <br>
+<% end %>
