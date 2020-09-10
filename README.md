@@ -72,8 +72,12 @@ Try `pp Artist.all` to see all artists that you seeded. (`pp` stands for "pretty
 
 ## References
 
-[Faker Docs](https://github.com/faker-ruby/faker)
-[FactoryBot Docs](https://github.com/thoughtbot/factory_bot/blob/master/GETTING_STARTED.md)
-[FactoryBot Cheatsheet](https://devhints.io/factory_bot)
-[Easily rename your Git default branch from master to main](https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx)
-[Common FactoryBot Gotchas](https://makandracards.com/rails_cheat_sheets/48119-common-factorybot-gotchas)
+* [Faker Docs](https://github.com/faker-ruby/faker)
+
+* [FactoryBot Docs](https://github.com/thoughtbot/factory_bot/blob/master/GETTING_STARTED.md)
+
+* [FactoryBot Cheatsheet](https://devhints.io/factory_bot)
+
+* [Easily rename your Git default branch from master to main](https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx)
+
+* [Common FactoryBot Gotchas](https://makandracards.com/rails_cheat_sheets/48119-common-factorybot-gotchas)
