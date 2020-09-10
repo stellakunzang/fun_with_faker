@@ -31,6 +31,10 @@ Then, set up the database:
 `$ rails db:migrate`
 `$ rails db:seed`
 
+Checkout some passing tests, because who doesn't like to see passing tests?
+
+`bundle exec rspec`
+
 ### Setting up your first factory
 
 Add gems for Faker and FactoryBot:
