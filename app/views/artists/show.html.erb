@@ -2,11 +2,13 @@
 <p> Birth Year: <%= @artist.year %> </p>
 <p> Location: <%= @artist.location %> </p>
 
+<h3>PAINTINGS</h3>
 <% @artist.paintings.each do |painting| %>
-  <p><%= painting.name %></p>
-  <p><%= painting.description %></p>
-  <p><%= painting.medium %></p>
-  <p><%= painting.color_palette %></p>
-  <p><img src=<%= painting.image %>></p>
-  <br>
+  <div class="painting">
+    <p><img src=<%= painting.image %>></p><br>
+    <p class="name"><%= painting.name %></p>
+    <p class="description"><%= painting.description %></p>
+    <p class="medium"><%= painting.medium %></p>
+    <p class="color_palette"><%= painting.color_palette %></p>
+  </div>
 <% end %>
