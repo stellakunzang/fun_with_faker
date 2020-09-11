@@ -39,7 +39,7 @@ RSpec.configure do |config|
   # instead of true.
   config.use_transactional_fixtures = true
 
-  # config.include FactoryBot::Syntax::Methods
+  config.include FactoryBot::Syntax::Methods
 
   Shoulda::Matchers.configure do |config|
     config.integrate do |with|
