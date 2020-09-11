@@ -27,7 +27,9 @@ After you have forked and cloned this respository, install the necessary gems:
 Then, set up the database:
 
 `$ rails db:create`
+
 `$ rails db:migrate`
+
 `$ rails db:seed`
 
 Checkout some passing tests, because who doesn't like to see passing tests?
@@ -39,6 +41,7 @@ Checkout some passing tests, because who doesn't like to see passing tests?
 1. Add gems for Faker and FactoryBot:
 
 `gem 'factory_bot_rails'`
+
 `gem 'faker'`
 
 2. Add necessary line `'/spec/rails_helper.rb'`
